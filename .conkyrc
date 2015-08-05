@@ -1,0 +1,9 @@
+background no
+out_to_console yes
+update_interval 1.0
+total_run_times 0
+use_spacer none
+ 
+TEXT
+^fg(\#5795db)UPTIME^fg() $uptime ^fg(\#5795db)CPU^fg() ${cpu cpu1}% / ${cpu cpu2}% ^fg(\#5795db)AVG^fg() ${loadavg} ^fg(\#5795db)TEMP^fg() ${acpitemp}C ^fg(\#5795db)RAM^fg() ${memperc}% ^fg(\#5795db)FS^fg() / ${fs_used_perc /}% /home ${fs_used_perc /home}% ^fg(\#5795db)PKG^fg() ${execi 30 /home/d0v1k/Scripts/pacman-updates} ^fg(\#008000)Down^fg() ${downspeedf wlp12s0}K/s ^fg(\#ff0000)Up^fg() ${upspeedf wlp12s0}K/s ${time %a %b %d %I:%M%P}
+
